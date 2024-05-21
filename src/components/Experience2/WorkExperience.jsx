@@ -1,6 +1,7 @@
 import React from "react";
 import "./WorkExperience.css";
 import transmed from "../../assets/totyota.jpeg";
+import transmed2 from "../../assets/TWG_Tea_logo.jpg";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
@@ -40,12 +41,16 @@ export const WorkExperience = () => {
         </SwiperSlide>   
 
         <SwiperSlide className="work">
-          <h4 className="client__name"> University student’s Project</h4>
+          <div className="work__avatar">
+            <img src={transmed2} alt="toyota" />
+          </div>
+          <h4 className="client__name"> Proofreading/ Editing/ Translation (English/ Arabic
+language variation)</h4>
         
           <small className="client__review">
-          Translated the subtitles of a short film made by a university audiovisual student.
+          TWG Tea Company website- Singapore
           </small>
-        </SwiperSlide>      
+        </SwiperSlide>     
       </Swiper>
     </section>
   );
