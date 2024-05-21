@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import {BsLinkedin} from 'react-icons/bs'
 const Footer = () => {
     return (
        <footer>
