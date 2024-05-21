@@ -2,7 +2,6 @@ import React from "react";
 import "./About.css";
 import yara from "../../assets/sara2.jpg";
 import { FiAward } from "react-icons/fi";
-import { GiSkills } from "react-icons/gi";
 
 const About = () => {
   return (
